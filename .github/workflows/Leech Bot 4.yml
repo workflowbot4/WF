@@ -25,8 +25,8 @@ jobs:
           docker container prune --force || true
           docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfile -t bot
 
-      - name: Deploy Bot is 540 Minutes on Runing
+      - name: Deploy Bot is 240 Minutes on Runing
         continue-on-error: true
-        timeout-minutes: 540
+        timeout-minutes: 240
         run: |
           docker run --privileged --rm -i bot
