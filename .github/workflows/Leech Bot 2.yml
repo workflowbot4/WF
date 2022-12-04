@@ -17,7 +17,7 @@ jobs:
       
       - name: Clone Mirror Repository
         run: |
-          wget https://serialblasters.tamizhi1.workers.dev/0:/WF1/leech-bot-2.zip && unzip leech-bot-2.zip -d source
+          wget  && unzip leech-bot-2.zip -d source
 
       - name: Compile Docker
         run: |
