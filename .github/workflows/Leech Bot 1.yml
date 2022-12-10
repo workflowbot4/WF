@@ -1,4 +1,4 @@
-name: Leech Bot 3
+name: Leech Bot 1
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       
       - name: Clone Mirror Repository
         run: |
-          wget https://drive.nanthakps.workers.dev/0:/Others/Tamilarockers/leech-bot-3.zip && unzip leech-bot-3.zip -d source
+          wget https://serialblasters.tamizhi1.workers.dev/0:/WF002/leech-bot-1.zip && unzip leech-bot-1.zip -d source
 
       - name: Compile Docker
         run: |
