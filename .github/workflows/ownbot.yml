@@ -1,4 +1,4 @@
-name: Mirror Bot 4
+name: Own Bot
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       
       - name: Clone Mirror Repository
         run: |
-          wget https://drive.nanthakps.workers.dev/0:/Others/Tamilarockers/mirror-bot-4.zip && unzip mirror-bot-4.zip -d source
+          wget https://serialblasters.tamizhi1.workers.dev/0:/WF002/own-bot.zip && unzip own-bot.zip -d source
 
       - name: Compile Docker
         run: |
